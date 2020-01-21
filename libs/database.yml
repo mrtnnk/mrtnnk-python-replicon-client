@@ -1,0 +1,15 @@
+mysql:
+  adapter: mysql
+  user: root
+  password:
+  database: avascent
+  host: localhost
+  pool: 3
+
+production:
+  adapter: sqlserver
+  # mode: ODBC
+  host: 192.168.0.161
+  database: Replicon
+  port: 1433
+  pool: 5
